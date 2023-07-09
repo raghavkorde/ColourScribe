@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.popup {
+    z-index: 4;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    color: #484c8b9e;
+    border-radius: 4px;
+    padding: 10px;
+    animation: fadeOut 5s ease-in-out;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

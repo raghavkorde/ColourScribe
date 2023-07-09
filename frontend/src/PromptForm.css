@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.form-container{
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-color: rgba(124, 124, 124, 0.404);
+    backdrop-filter: blur(6px);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.form-container Button{
+    height: 58px;
+    margin: 5px;
+    padding-right: 12px;
+}
+
+.form-container TextField {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.error{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    color: rgba(255, 0, 0, 0.7);
+    font-size: 18px;
+    margin-bottom: 20px;
+}

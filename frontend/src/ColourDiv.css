@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.element{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: transform 0.4s, box-shadow 0.1s;
+    border: 0.1px solid hsla(0, 0%, 0%, 0.300);
+    text-align: center;   
+}
+.element:hover {
+    z-index: 1;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.25);
+    border: 3px solid rgba(240, 255, 255, 0.5);
+}
+
+.element h3{
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 3;
+    top:75%;
+    margin-bottom: 50px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 18px;
+    /* mix-blend-mode:difference; */
+}
+
+.color{
+    position: absolute;
+    top: 85%;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    /* mix-blend-mode: color-dodge; */
+    
+}
+.icons{
+    z-index: 2;
+    position: absolute;
+    top: 70%;
+}
+.icons button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: transparent;
+    border: transparent;
+    transition: transform 0.4s, box-shadow 0.1s;
+}
+.icons button:hover{
+    transform: scale(1.15);
+    background-color: rgba(240, 255, 255, 0.428);
+    border: 1px solid azure;
+}

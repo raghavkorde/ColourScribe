@@ -1,0 +1,19 @@
+{
+  "name": "colourscribe",
+  "version": "1.0.0",
+  "description": "Used to start frontend and backend at the same time",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "start-backend": "cd backend && nodemon server.js",
+    "start-frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "Raghav Korde",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
