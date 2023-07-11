@@ -43,7 +43,7 @@ But the installation of `node_modules` in frontend and backend can be done simpl
     ```
 3. Then execute 
    ```bash
-   npm install
+   npm run install-all
    ```
 4. To run the project, in the root directory, execute
    ```bash
