@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
     "start-backend": "cd backend && nodemon server.js",
-    "start-frontend": "cd frontend && npm run dev"
+    "start-frontend": "cd frontend && npm run dev",
+    "install-all": "npm install && cd frontend && npm install && cd .. && cd backend && npm install"
+}
   },
   "keywords": [],
   "author": "Raghav Korde",
